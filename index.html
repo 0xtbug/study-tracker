@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- Primary Meta Tags -->
+    <title>StudyTracker</title>
+    <meta name="title" content="StudyTracker" />
+    <meta name="description"
+        content="Adalah aplikasi yang dirancang khusus untuk memudahkan mahasiswa Fakultas Ilmu Komputer Universitas Singaperbangsa Karawang dalam solusi terbaik untuk memantau jadwal kuliah akademis mereka. Dengan antarmuka yang intuitif dan user-friendly." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://cgreatinformatics.web.id/" />
+    <meta property="og:title" content="StudyTracker" />
+    <meta property="og:description"
+        content="Adalah aplikasi yang dirancang khusus untuk memudahkan mahasiswa Fakultas Ilmu Komputer Universitas Singaperbangsa Karawang dalam solusi terbaik untuk memantau jadwal kuliah akademis mereka. Dengan antarmuka yang intuitif dan user-friendly." />
+    <meta property="og:image" content="assets/img/icon.png" />
+
+    <title>StudyTracker</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-With-Button-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md bg-body py-3">
+                    <div class="container">
+                        <a class="navbar-brand d-flex align-items-center" href="#">
+                            <span
+                                class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                                    viewBox="0 0 16 16" class="bi bi-calendar2-week-fill">
+                                    <path
+                                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zM8.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM3 10.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span>StudyTracker</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navcol-3">
+                            <span class="visually-hidden">Toggle navigation</span>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navcol-3">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item"></li>
+                                <li class="nav-item"></li>
+                                <li class="nav-item"></li>
+                            </ul>
+                            <span class="navbar-text">
+                                <a href="https://www.instagram.com/c_greatinformatics" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <span style="color: var(--bs-nav-link-hover-color);">#cgreatinformatics</span>
+                                </a>
+                            </span>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="py-4 py-xl-5">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div
+                    class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                    <div>
+                        <h2 class="text-uppercase fw-bold">FASILKOM STUDYTRACKER</h2>
+                        <p class="mb-4">Adalah aplikasi yang dirancang khusus untuk memudahkan mahasiswa Fakultas Ilmu
+                            Komputer Universitas Singaperbangsa Karawang dalam&nbsp;solusi terbaik untuk memantau jadwal
+                            kuliah&nbsp;akademis mereka.
+                            Dengan antarmuka yang intuitif dan user-friendly.</p>
+                        <div class="dropdown mb-0" style="display: inline-block; margin-left: 10px;">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="semesterDropdownButton"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pilih Semester
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="semesterDropdownButton">
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('all')">Semua
+                                    Semester</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('1')">Semester
+                                    1</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('2')">Semester
+                                    2</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('3')">Semester
+                                    3</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('4')">Semester
+                                    4</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('5')">Semester
+                                    5</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('6')">Semester
+                                    6</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('7')">Semester
+                                    7</a>
+                                <a class="dropdown-item" href="#" onclick="fetchDataAndPopulateTable('8')">Semester
+                                    8</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0" id="semesterHeader">Semester 1</h5>
+                    </div>
+                    <div class="card-body pt-1 pb-0">
+                        <div class="table-responsive">
+                            <table class="card-table table">
+                                <thead>
+                                    <tr>
+                                        <th>Nomor</th>
+                                        <th>Kode</th>
+                                        <th>Mata Kuliah</th>
+                                        <th>Jenis</th>
+                                        <th>Sks</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="semesterTableBody">
+
+                                </tbody>
+                            </table>
+                            <div id="totalSKS" class="mt-3 mb-2 text-center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2023 <a href="https://instagram.com/tubagusnm19_" target="_blank"
+                            rel="noopener noreferrer">TubagusNM</a> || data from e-campus Unsika</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

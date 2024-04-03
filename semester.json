@@ -1,0 +1,81 @@
+{
+    "SEMESTER": {
+      "1": [
+        {"Kode": "FIK61505", "MATAKULIAH": "Algoritma Dan Pemrograman", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "USK61206", "MATAKULIAH": "BAHASA INGGRIS", "Jenis": "Wajib", "SKS": 2},
+        {"Kode": "FIK61403", "MATAKULIAH": "Fisika Dasar", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61501", "MATAKULIAH": "Kalkulus", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61502", "MATAKULIAH": "Matematika Diskrit", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "USK61304", "MATAKULIAH": "PENDIDIKAN KEWARGANEGARAAN", "Jenis": "Wajib", "SKS": 2},
+        {"Kode": "FIK61504", "MATAKULIAH": "Pengantar Teknologi Informasi", "Jenis": "Wajib", "SKS": 2}
+      ],
+      "2": [
+        {"Kode": "FIK61507", "MATAKULIAH": "Aljabar Linear", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "USK61202", "MATAKULIAH": "Bahasa Indonesia", "Jenis": "Wajib", "SKS": 2},
+        {"Kode": "USK61207", "MATAKULIAH": "Budaya Bangsa", "Jenis": "Wajib", "SKS": 2},
+        {"Kode": "FIK61508", "MATAKULIAH": "Interaksi Manusia Dan Komputer", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61509", "MATAKULIAH": "Organisasi Dan Arsitektur Komputer", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "USK61303", "MATAKULIAH": "PANCASILA", "Jenis": "Wajib", "SKS": 2},
+        {"Kode": "USK61101", "MATAKULIAH": "PENDIDIKAN AGAMA", "Jenis": "Wajib", "SKS": 2},
+        {"Kode": "FIK61506", "MATAKULIAH": "Struktur Data", "Jenis": "Wajib", "SKS": 3}
+      ],
+      "3": [
+        {"Kode": "FIK61512", "MATAKULIAH": "Analisis Dan Desain Berorientasi Objek", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61510", "MATAKULIAH": "Basis Data", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61515", "MATAKULIAH": "Jaringan Komputer", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61516", "MATAKULIAH": "Keamanan Sistem", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61511", "MATAKULIAH": "Metode Numerik", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61514", "MATAKULIAH": "Pemrograman Berorientasi Objek", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61521", "MATAKULIAH": "Teori Bahasa Dan Automata", "Jenis": "Wajib", "SKS": 3}
+      ],
+      "4": [
+        {"Kode": "FIK61517", "MATAKULIAH": "Analisis Desain Algoritma", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61523", "MATAKULIAH": "Embedded Intelligent Systems", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61522", "MATAKULIAH": "Kecerdasan Buatan", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61518", "MATAKULIAH": "Pemrograman Berbasis Web", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61519", "MATAKULIAH": "Rekayasa Perangkat Lunak", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61513", "MATAKULIAH": "Sistem Operasi", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61520", "MATAKULIAH": "Statistika Dan Probabilitas", "Jenis": "Wajib", "SKS": 3}
+      ],
+      "5": [
+        {"Kode": "FIK61555", "MATAKULIAH": "Blockchain", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61534", "MATAKULIAH": "Cloud Computing", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61526", "MATAKULIAH": "Data Mining", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61527", "MATAKULIAH": "Framework Pemrograman Web", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61574", "MATAKULIAH": "PEMROGRAMAN BERBASIS MOBILE", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61525", "MATAKULIAH": "Technopreneur", "Jenis": "Wajib", "SKS": 3}
+      ],
+      "6": [
+        {"Kode": "FIK61550", "MATAKULIAH": "Analisis Big Data", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61554", "MATAKULIAH": "Business Inteligence", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61546", "MATAKULIAH": "Machine Learning", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61543", "MATAKULIAH": "Manajemen Proyek Perangkat Lunak", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61545", "MATAKULIAH": "Metodologi Penelitian", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61559", "MATAKULIAH": "Network Management", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61547", "MATAKULIAH": "Pengolahan Citra Digital", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61563", "MATAKULIAH": "Perancangan User Experience", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61544", "MATAKULIAH": "Sistem Pendukung Keputusan", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61548", "MATAKULIAH": "Software Design Pattern", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61557", "MATAKULIAH": "Wireless Sensor Network", "Jenis": "Wajib", "SKS": 3}
+      ],
+      "7": [
+        {"Kode": "FIK1575", "MATAKULIAH": "Capstone Project", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61539", "MATAKULIAH": "Database Administration", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61551", "MATAKULIAH": "Data Engineering", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61529", "MATAKULIAH": "Data Visualisasi", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61560", "MATAKULIAH": "Ethical Hacking", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61567", "MATAKULIAH": "Etika Profesi", "Jenis": "Wajib", "SKS": 2},
+        {"Kode": "FIK61571", "MATAKULIAH": "Internet of Things", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61528", "MATAKULIAH": "Knowledge Representation", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61537", "MATAKULIAH": "Kriptografi", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61556", "MATAKULIAH": "Network Security", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61562", "MATAKULIAH": "Pengujian Perangkat Lunak", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61540", "MATAKULIAH": "Penjaminan Mutu Perangkat Lunak (SQA)", "Jenis": "Wajib", "SKS": 3},
+        {"Kode": "FIK61541", "MATAKULIAH": "Rekayasa Dan Manajemen Kebutuhan", "Jenis": "Wajib", "SKS": 3}
+      ],
+      "8": [
+        {"Kode": "FIK61572", "MATAKULIAH": "Tugas Akhir (Skripsi)", "Jenis": "Wajib", "SKS": 6}
+      ]
+    }
+  }
+  
